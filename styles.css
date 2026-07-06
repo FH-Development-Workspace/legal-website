@@ -37,6 +37,24 @@ body {
     padding: 30px;
 }
 
+p a {
+    color: #ffffff; /* White text */
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+p a:hover {
+    color: #d9f3ff; /* Light blue on hover */
+}
+
+p a:visited {
+    color: #ffffff; /* Keep visited links white */
+}
+
+p a:active {
+    color: #b8e8ff;
+}
+
 .navbar {
     position: absolute;
     top: 0;
